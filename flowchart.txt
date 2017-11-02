@@ -1,0 +1,30 @@
+IMPLEMENTATION OF HILL CIPHER
+
+************************************************************************************
+Encryption of plain text
+************************************************************************************
+Generate a random matrix 3x3 matrix
+	This will act as a key.
+Multiply it with the text with sets of 3 characters
+	A set of three characters is taken because rows columns of left matrix should be equal to row of right matrix
+Take modulo 95 of the resultant matrix
+	ASCII
+Add 32 to each row
+	to get it in ASCII code
+Voila you have encrypted the plain text
+
+FILES AND THEIR EXPLAINATION
+	mainhillcipher.cpp
+		this file contains 'main' function
+	encrypt.cpp
+		this is to write the algorithm of encrypting text using hill cipher
+	decrypt.cpp
+		this is to write the algorithm of decrypting text using hill cipher
+	linearalgebra.cpp
+		this file contains the basic operations implemented on the matrix
+	hillcipher.h
+		this is the header file which binds all the files
+
+************************************************************************************
+Decryption of plain text
+************************************************************************************
