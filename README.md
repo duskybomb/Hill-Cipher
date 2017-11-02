@@ -6,8 +6,6 @@
 	<b>linearalgebra.cpp</b>: this file contains the basic operations implemented on the matrix<br>
 	<b>hillcipher.h</b>: this is the header file which binds all the files<br>
 
-IMPLEMENTATION OF HILL CIPHER
-
 <h2>Encryption of plain text</h2>
 <ul>
 <li>Generate a random matrix 3x3 matrix, this will act as a key.<br>
