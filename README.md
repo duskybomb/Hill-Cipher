@@ -1,6 +1,6 @@
 # Hill-Cipher
 <h2>Source Code Files</h2>
-	<b>mainhillcipher.cpp</b>: this file contains 'main' function
+	<b>mainhillcipher.cpp</b>: this file contains 'main' function<br>
 	<b>encrypt.cpp</b>: this is to write the algorithm of encrypting text using hill cipher<br>
 	<b>decrypt.cpp</b>: this is to write the algorithm of decrypting text using hill cipher<br>
 	<b>linearalgebra.cpp</b>: this file contains the basic operations implemented on the matrix<br>
