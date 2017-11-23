@@ -21,7 +21,7 @@ Hill Cipher, invented by Lester S Hill in 1029, is a polygraphic substitution ci
 	<li>A plaintext string message</li>
 </ol>
 
-<b>Output<b>
+<b>Output</b>
 <ol>
 	<li>An encoded string</li>
 </ol>
