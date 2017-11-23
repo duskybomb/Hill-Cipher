@@ -38,7 +38,7 @@ Hill Cipher, invented by Lester S Hill in 1029, is a polygraphic substitution ci
 	<li>Multiply key matrix with the plain text and mod92 operator</li>
 	<li>Add 33 to the resultant matrix to get the ASCII code of respective elements in the matrix</li>
 </ol>
-<b>Decrypt()</b>
+<h4>Decrypt()</h4>
 <b>Output</b>
 <ol>
 	<li>Decoded message same as the initial input message</li>
