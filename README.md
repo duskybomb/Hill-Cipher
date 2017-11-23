@@ -1,18 +1,51 @@
 # Hill-Cipher
+<p>How often we need to send someone a message and make sure no one else reads it. To encounter this problem the messages sent across to others are encoded more often than not. The algorithms used are as complex as Nazi’s Enigma and as simple as Caesar Cipher. 
+Hill Cipher, invented by Lester S Hill in 1029, is a polygraphic substitution cipher based on Linear Algebra and particular requires the user to have an elementary understanding of the matrices. In this project, we have developed an extended algorithm for Hill Cipher (both for encryption and decryption) and implement it on MATLAB and C++.</p>
+
 <h2>Source Code Files</h2>
+	<h5>CPP</h5>
 	<b>mainhillcipher.cpp</b>: this file contains 'main' function<br>
 	<b>encrypt.cpp</b>: this is to write the algorithm of encrypting text using hill cipher<br>
 	<b>decrypt.cpp</b>: this is to write the algorithm of decrypting text using hill cipher<br>
 	<b>linearalgebra.cpp</b>: this file contains the basic operations implemented on the matrix<br>
 	<b>hillcipher.h</b>: this is the header file which binds all the files<br>
+	<h5>MATLAB</h5>
+	<b>Hill_Cipher.m</b> : this file contains 'main' function<br>
+	<b>Encrypt.m</b>: this is to write the algorithm of encrypting text using hill cipher<br>
+	<b>Decrypt.m</b>: this is to write the algorithm of decrypting text using hill cipher<br>
 
-<h2>Encryption of plain text</h2>
-<ul>
-<li>Generate a random matrix 3x3 matrix, this will act as a key.<br>
-<li>Multiply it with the text with sets of 3 characters,a set of three characters is taken because rows columns of left matrix should be equal to row of right matrix<br>
-<li>Take modulo 95 of the resultant matrix, ASCII
-<li>Add 32 to each row, to get it in ASCII code
-<li>Voila! you have encrypted the plain text<br>
-</ul>
-<h2>Decryption of plain text</h2>
-Coming Soon!
+<h4>Encrypt()</h4>
+<b>Input</b>
+<ol>
+	<li>A 3x3 matrix which works as a key matrix, key[3][3]</li>
+	<li>A plaintext string message</li>
+</ol>
+
+<b>Output<b>
+<ol>
+	<li>An encoded string</li>
+</ol>
+
+<b>Constrains</b>
+<ol>
+	<li>-32,000 ≤ key ≤ 32,000</li>
+	<li>message ∈ {A, B, C …, Y, Z}</li>
+</ol>
+
+<b>Working</b>
+<ol>
+	<li>Convert plaintext to ASCII number then subtract 33.</li>
+	<li>Multiply key matrix with the plain text and mod92 operator</li>
+	<li>Add 33 to the resultant matrix to get the ASCII code of respective elements in the matrix</li>
+</ol>
+<b>Decrypt()</b>
+<b>Output</b>
+<ol>
+	<li>Decoded message same as the initial input message</li>
+</ol>
+<b>Working</b>
+<ol>
+<li>Finding inverse of key</li>
+<li>Multiply the inverse of key matrix with the ASCII matrix</li>
+<li>Use mod92 operator on the matrix and add 33 to get elements in ASCII form.</li>
+</ol>
