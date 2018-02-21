@@ -13,8 +13,8 @@ Hill Cipher, invented by Lester S Hill in 1029, is a polygraphic substitution ci
 	<b>Hill_Cipher.m</b> : this file contains 'main' function<br>
 	<b>Encrypt.m</b>: this is to write the algorithm of encrypting text using hill cipher<br>
 	<b>Decrypt.m</b>: this is to write the algorithm of decrypting text using hill cipher<br>
-
-<h4>Encrypt()</h4>
+<h2>Methodology</h2>
+<h3>Encrypt()</h3>
 <b>Input</b>
 <ol>
 	<li>A 3x3 matrix which works as a key matrix, key[3][3]</li>
@@ -38,7 +38,7 @@ Hill Cipher, invented by Lester S Hill in 1029, is a polygraphic substitution ci
 	<li>Multiply key matrix with the plain text and mod92 operator</li>
 	<li>Add 33 to the resultant matrix to get the ASCII code of respective elements in the matrix</li>
 </ol>
-<h4>Decrypt()</h4>
+<h3>Decrypt()</h3>
 <b>Output</b>
 <ol>
 	<li>Decoded message same as the initial input message</li>
