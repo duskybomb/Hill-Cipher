@@ -49,3 +49,12 @@ Hill Cipher, invented by Lester S Hill in 1029, is a polygraphic substitution ci
 <li>Multiply the inverse of key matrix with the ASCII matrix</li>
 <li>Use mod92 operator on the matrix and add 33 to get elements in ASCII form.</li>
 </ol>
+
+## Authors
+
+<a href="http://ducic.ac.in/"><img src="https://user-images.githubusercontent.com/16596327/30467922-9d4985ce-9a05-11e7-81aa-9f5348eb40de.png" align="right" width="300"/></a>
+
+* **[Harshit Joshi](https://github.com/duskybomb)** 
+* **[Manas Awasthi](https://github.com/the-marvex)** 
+* **Mayank Malik** 
+	
