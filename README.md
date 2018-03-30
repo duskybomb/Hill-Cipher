@@ -56,5 +56,5 @@ Hill Cipher, invented by Lester S Hill in 1029, is a polygraphic substitution ci
 
 * **[Harshit Joshi](https://github.com/duskybomb)** 
 * **[Manas Awasthi](https://github.com/the-marvex)** 
-* **Mayank Malik** 
+* **[Mayank Malik](https://github.com/MayankMalikk)**
 	
